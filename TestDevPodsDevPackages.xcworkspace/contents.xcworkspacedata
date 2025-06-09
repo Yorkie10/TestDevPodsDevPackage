@@ -19,7 +19,4 @@
    <FileRef
       location = "group:DevPackages/PodA">
    </FileRef>
-   <FileRef
-      location = "group:DevPackages/PodA">
-   </FileRef>
 </Workspace>

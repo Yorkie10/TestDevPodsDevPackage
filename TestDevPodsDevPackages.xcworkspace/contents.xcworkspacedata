@@ -7,4 +7,19 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:DevPackages/PodD">
+   </FileRef>
+   <FileRef
+      location = "group:DevPackages/PodC">
+   </FileRef>
+   <FileRef
+      location = "group:DevPackages/PodB">
+   </FileRef>
+   <FileRef
+      location = "group:DevPackages/PodA">
+   </FileRef>
+   <FileRef
+      location = "group:DevPackages/PodA">
+   </FileRef>
 </Workspace>

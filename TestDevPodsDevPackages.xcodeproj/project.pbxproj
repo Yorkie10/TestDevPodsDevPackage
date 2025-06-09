@@ -56,7 +56,6 @@
 				58BACE208DFDEB30C1A80A0B /* Pods-TestDevPodsDevPackages.debug.xcconfig */,
 				CD1E6DE2EB9BE6E1B9AECE9B /* Pods-TestDevPodsDevPackages.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

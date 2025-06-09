@@ -42,6 +42,10 @@ playground.xcworkspace
 # Xcode user state files
 *.xcuserstate
 
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+
 # Others
 *.DS_Store
 .idea/

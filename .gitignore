@@ -39,6 +39,9 @@ fastlane/test_output
 timeline.xctimeline
 playground.xcworkspace
 
+# Xcode user state files
+*.xcuserstate
+
 # Others
 *.DS_Store
 .idea/

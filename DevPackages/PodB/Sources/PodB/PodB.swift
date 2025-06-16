@@ -3,8 +3,14 @@
 
 import PodA
 
-public struct PodB {
-    public static func hello() -> String {
-        return "Hello from PodB and " + PodA.hello()
+public class PodB {
+    
+    let helper = PodA()
+    lazy var token = helper.token
+    
+    public init() { }
+    
+    public func hello() -> String {
+        return "Hello from PodB and " + helper.helloFromPodA()
     }
 }

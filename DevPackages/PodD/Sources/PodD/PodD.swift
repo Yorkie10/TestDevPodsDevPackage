@@ -3,9 +3,10 @@
 
 import PodA
 
-
 struct PodD {
-    public static func hello() -> String {
-        return "Hello from PodD and " + PodA.hello()
+    let helper = PodA()
+    
+    public func hello() -> String {
+        return "Hello from PodD and " + helper.token
     }
 }

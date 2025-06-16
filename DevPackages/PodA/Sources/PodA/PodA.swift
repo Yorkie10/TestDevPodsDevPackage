@@ -2,8 +2,13 @@
 // https://docs.swift.org/swift-book
 
 
-public struct PodA {
-    public static func hello() -> String {
+public class PodA {
+    
+    public var token: String = "I love pump"
+    
+    public init() { }
+    
+    public func helloFromPodA() -> String {
         return "Hello from PodA!"
     }
 }

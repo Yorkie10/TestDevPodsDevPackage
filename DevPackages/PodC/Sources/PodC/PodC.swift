@@ -2,11 +2,14 @@
 // https://docs.swift.org/swift-book
 
 import PodA
+import PodB
 
-
+@MainActor
 struct PodC {
+   
+    var helper = PodA()
     
-    public static func hello() -> String {
-        return "Hello from PodC and " + PodA.hello()
+    public func hello() -> String {
+        return "Hello from PodC and " + helper.token
     }
 }

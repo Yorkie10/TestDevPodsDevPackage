@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5840836F2E00153400F819C9 /* AggregatorPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 5840836E2E00153400F819C9 /* AggregatorPackage */; };
+		5887961B2E0186FB001E84C4 /* PodD in Frameworks */ = {isa = PBXBuildFile; productRef = 5887961A2E0186FB001E84C4 /* PodD */; };
+		5887961D2E018701001E84C4 /* PodB in Frameworks */ = {isa = PBXBuildFile; productRef = 5887961C2E018701001E84C4 /* PodB */; };
+		5887961F2E01870F001E84C4 /* PodC in Frameworks */ = {isa = PBXBuildFile; productRef = 5887961E2E01870F001E84C4 /* PodC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5801F2CF2E02C29D0053791F /* TestDevPodsDevPackages.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TestDevPodsDevPackages.xcodeproj; sourceTree = "<group>"; };
 		58DA7F232DF6E20A0030552F /* TestDevPodsDevPackages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDevPodsDevPackages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,13 +43,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5840836F2E00153400F819C9 /* AggregatorPackage in Frameworks */,
+				5887961B2E0186FB001E84C4 /* PodD in Frameworks */,
+				5887961D2E018701001E84C4 /* PodB in Frameworks */,
+				5887961F2E01870F001E84C4 /* PodC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5801F2D12E02C29D0053791F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		58DA7F1A2DF6E20A0030552F = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +131,20 @@
 			mainGroup = 58DA7F1A2DF6E20A0030552F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				583CDD242DFEFB94004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodA" */,
 				583CDD272DFEFBA9004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodB" */,
 				583CDD2A2DFEFBB8004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodC" */,
 				583CDD2D2DFEFBC5004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodD" */,
+				5820FF332E019B09008F062A /* XCLocalSwiftPackageReference "DevPackages/PodA" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 58DA7F242DF6E20A0030552F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5801F2D12E02C29D0053791F /* Products */;
+					ProjectRef = 5801F2CF2E02C29D0053791F /* TestDevPodsDevPackages.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58DA7F222DF6E20A0030552F /* TestDevPodsDevPackages */,
@@ -362,7 +380,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		583CDD242DFEFB94004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodA" */ = {
+		5820FF332E019B09008F062A /* XCLocalSwiftPackageReference "DevPackages/PodA" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = DevPackages/PodA;
 		};
@@ -381,9 +399,19 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5840836E2E00153400F819C9 /* AggregatorPackage */ = {
+		5887961A2E0186FB001E84C4 /* PodD */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AggregatorPackage;
+			package = 583CDD2D2DFEFBC5004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodD" */;
+			productName = PodD;
+		};
+		5887961C2E018701001E84C4 /* PodB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 583CDD272DFEFBA9004293C7 /* XCLocalSwiftPackageReference "DevPackages/PodB" */;
+			productName = PodB;
+		};
+		5887961E2E01870F001E84C4 /* PodC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PodC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

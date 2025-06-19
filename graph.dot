@@ -1,0 +1,18 @@
+digraph {
+  PodA [fillcolor=coral1 shape=cylinder style=filled]
+  PodB [fillcolor=tan4 fontcolor=white shape=tab style=filled]
+  PodB [fillcolor=coral1 shape=cylinder style=filled]
+  PodC [fillcolor=coral1 shape=cylinder style=filled]
+  PodC [fillcolor=tan4 fontcolor=white shape=tab style=filled]
+  PodD [fillcolor=coral1 shape=cylinder style=filled]
+  PodD [fillcolor=tan4 fontcolor=white shape=tab style=filled]
+  SnapKit [fillcolor=tan4 fontcolor=white shape=tab style=filled]
+  TestDevPodsDevPackages [fillcolor=deepskyblue penwidth="1.5" shape=box3d style=filled]
+  PodA -> SnapKit
+  PodB -> PodA
+  PodC -> PodA
+  PodD -> PodA
+  TestDevPodsDevPackages -> PodD
+  TestDevPodsDevPackages -> PodC
+  TestDevPodsDevPackages -> PodB
+}

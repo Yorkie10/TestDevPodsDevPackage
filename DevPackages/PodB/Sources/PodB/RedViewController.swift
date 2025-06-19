@@ -6,13 +6,18 @@
 //
 
 import UIKit
+import PodC
+
 
 public final class RedViewController: UIViewController {
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         print("🍓")
+        edgesForExtendedLayout = [.top, .bottom]
         view.backgroundColor = .red
+        view.layer.borderWidth = 5
+        view.layer.borderColor = UIColor.blue.cgColor
     }
     
     public init() {

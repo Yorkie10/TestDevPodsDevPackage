@@ -2,7 +2,6 @@
 // https://docs.swift.org/swift-book
 
 import PodA
-import PodB
 
 @MainActor
 struct PodC {
